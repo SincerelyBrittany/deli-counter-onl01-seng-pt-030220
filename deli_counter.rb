@@ -24,7 +24,6 @@ def take_a_number(katz_deli,person_name)
      index +=1
      welcome_message << " #{index} in line."
    end
-  
 end
 
 # Welcome, Grace. You are number 2 in line.
