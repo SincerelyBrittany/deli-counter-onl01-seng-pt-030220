@@ -7,7 +7,7 @@ def line(array)
   array.each_with_index do |item, index|
   index +=1
   new_index = index.join(".")
-  current_line << index << ". " << item
+  current_line << new_index << ". " << item
   end
 else 
   puts "The line is currently empty."
