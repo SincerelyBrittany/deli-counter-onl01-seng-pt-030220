@@ -24,9 +24,10 @@
 katz_deli = []
 
 def line(katz_deli)
+ katz_deli.each_with_index
  arr_length = katz_deli.length
  if arr_length > 0 
-   puts "where doing something"
+   katz_deli
   elsif
    puts "The line is currently empty."
  end
