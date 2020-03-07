@@ -37,8 +37,6 @@ end
 
 puts take_a_number(["a","b","c"], "Johnny")
 
-# Welcome, Grace. You are number 2 in line.
-
 
 
 
