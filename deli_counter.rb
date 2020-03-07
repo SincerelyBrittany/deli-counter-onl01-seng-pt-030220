@@ -8,7 +8,7 @@ def line(array)
   else 
      array.each_with_index do |item, index|
      index +=1
-     current_line << "#{index}. #{item} "
+     current_line << " #{i}. #{person}"
    end
    puts current_line
   end
