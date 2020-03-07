@@ -24,7 +24,11 @@
 katz_deli = []
 
 def line(katz_deli)
- if 
+ arr_length = katz_deli.length
+ if arr_length > 0 
+   puts "where doing something"
+  elsif
+   
   
 end
 
