@@ -40,8 +40,8 @@ def now_serving(katz_deli)
   else 
     puts katz_deli
     current_person = katz_deli[0]
+    katz_deli.shift
     puts "Currently serving #{current_person}."
-    katz_deli.shift[0]
   end
 end
 
