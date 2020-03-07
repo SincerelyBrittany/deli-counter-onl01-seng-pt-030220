@@ -19,6 +19,12 @@ end
 puts line(["a","b","c"])
 
 def take_a_number(katz_deli,person_name)
+  
+     current_line = "The line is currently:"
+     array.each_with_index do |item, index|
+     index +=1
+     current_line << " #{index}. #{item}"
+   end
   welcome_message = "Welcome, #{person_name}. You are number #{index} in line."
   
 end
