@@ -11,7 +11,8 @@ def line(array)
 else 
   puts "The line is currently empty."
 end
-puts "The line is currently:", current_line
+current_line.join
+"The line is currently:"
 current_line
 end
 
