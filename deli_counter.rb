@@ -36,6 +36,7 @@ end
   puts current_line
 end
 
+puts line(["a","b","c"])
 
 
 
