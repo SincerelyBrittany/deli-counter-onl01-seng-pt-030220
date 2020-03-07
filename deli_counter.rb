@@ -16,7 +16,7 @@ else
 end
 end
 
-puts line([])
+puts line(["a","b","c"])
 
 def take_a_number(line,endofline)
   
