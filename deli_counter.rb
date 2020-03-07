@@ -35,11 +35,11 @@ def take_a_number(katz_deli,person_name)
   # puts welcome_message
 end
 
-def now_serving
+def now_serving(katz_deli)
 
 
 
-puts take_a_number(["a","b","c"], "Johnny")
+puts now_serving(["a","b","c"])
 
 
 
