@@ -36,6 +36,8 @@ def line(katz_deli)
  end
 end
 
+puts line(["a","b","c"])
+
 
 
 
