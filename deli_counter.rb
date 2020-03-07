@@ -4,7 +4,7 @@
 def line(array)
   current_line =[]
   if array.length > 0
-  array.map.with_index { |value, index| value + index }
+  array.map.with_index { |value, index| value + "." + index }
   # array.each_with_index do |item, index|
   # index +=1
   # index.join(".")
