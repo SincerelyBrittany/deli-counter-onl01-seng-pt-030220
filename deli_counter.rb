@@ -4,7 +4,7 @@
 def line(array)
   if array.length > 0
      current_line = "The line is currently:"
-  array.each_with_index(1) do |item, index|
+  array.each_with_index do |item, index|
     index +=1
     current_line << "#{index}. #{item} "
   end
