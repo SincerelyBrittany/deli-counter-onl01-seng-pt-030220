@@ -32,7 +32,6 @@ def take_a_number(katz_deli,person_name)
      welcome_message = "Welcome, #{name}. You are number #{index} in line."
      puts welcome_message
    end
-  # puts welcome_message
 end
 
 def now_serving(katz_deli)
