@@ -19,11 +19,13 @@ end
 
 def take_a_number(katz_deli,person_name)
     welcome_message = "Welcome, #{person_name}. You are number"
-     katz_deli.each_with_index do |item, index|
+    katz_deli.each_with_index do |item, index|
     index +=1
     welcome_message << " #{index} in line."
    end
 end
+
+puts line(["a","b","c"], "Grace")
 
 # Welcome, Grace. You are number 2 in line.
 
