@@ -15,6 +15,7 @@ end
   puts current_line
 end
 
+def line(array)
 
 def take_a_number(line,endofline)
   
