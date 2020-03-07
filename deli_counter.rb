@@ -3,7 +3,7 @@
 
 def line(array)
   current_line =[]
-  current_line.join
+  current_line.join("")
   if array.length > 0
   array.each_with_index do |item, index|
   index +=1
