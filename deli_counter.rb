@@ -19,6 +19,7 @@ end
 puts line(["a","b","c"])
 
 def take_a_number(katz_deli,person_name)
+  welcome_message = "The line is currently:"
   
 end
 
