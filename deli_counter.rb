@@ -12,7 +12,7 @@ else
   puts "The line is currently empty."
 end
   puts "The line is currently:"
-  current_line.join("")
+  current_line.join
   puts current_line
 end
 
