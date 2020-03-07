@@ -13,9 +13,6 @@ def line(array)
 else 
   puts "The line is currently empty."
 end
-  puts "The line is currently:"
-  current_line.join
-  puts current_line
 end
 
 puts line(["a","b","c"])
