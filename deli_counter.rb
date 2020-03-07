@@ -6,10 +6,8 @@ def line(array)
   if array.length > 0
   array.each_with_index do |item, index|
   index +=1
-  current_line << index
-  current_line << "."
-  current_line << item
-  current_line.join.squeeze(' ')
+  current_line << "#{index}.#{item}"
+
   end
 else 
   puts "The line is currently empty."
