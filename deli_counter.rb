@@ -29,7 +29,6 @@ def line(katz_deli)
    puts "where doing something"
   elsif
    puts "The line is currently empty."
-  
 end
 
 
