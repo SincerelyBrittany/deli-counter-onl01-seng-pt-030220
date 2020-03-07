@@ -8,12 +8,12 @@ def line(array)
   index +=1
   current_line << "#{index}. #{item}"
   end
+   current_line.join(",")
+puts "The line is currently:"
+current_line
 else 
   puts "The line is currently empty."
 end
- current_line.join(",")
-puts "The line is currently:"
-current_line
 end
 
 puts line(["a","b","c"])
