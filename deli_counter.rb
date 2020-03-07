@@ -28,7 +28,7 @@ def line(katz_deli)
  puts "The line is currently:"
  if arr_length > 0 
    katz_deli.each_with_index do |person, index|
-  puts  "#{index}.#{person}"
+  puts  "#{index}. #{person}"
  end
   elsif
    puts "The line is currently empty."
