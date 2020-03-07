@@ -25,12 +25,12 @@ def take_a_number(katz_deli,person_name)
       welcome_message = "Welcome, #{name}. You are number #{index} in line."
       puts welcome_message
     else 
-      puts "nothing"
-    katz_deli.push(person_name)
-    welcome_message = "Welcome, #{person_name}. You are number"
-    katz_deli.each_with_index do |item, index|
-    index +=1
-    welcome_message << " #{index} in line."
+     katz_deli.push(person_name)
+     index = katz_deli.index(person_name)
+     welcome_message = "Welcome, #{person_name}. You are number"
+     katz_deli.each_with_index do |item, index|
+     index +=1
+     welcome_message << " #{index} in line."
    end
   # puts welcome_message
 end
