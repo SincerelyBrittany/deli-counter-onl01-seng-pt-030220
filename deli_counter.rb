@@ -10,7 +10,7 @@ def line(array)
      index +=1
      current_line << "#{index}. #{item} "
    end
-   current_line
+   puts current_line
   end
 end
 
