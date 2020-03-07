@@ -31,9 +31,6 @@ def take_a_number(katz_deli,person_name)
      index +=1
      welcome_message = "Welcome, #{name}. You are number #{index} in line."
      puts welcome_message
-    # welcome_message = "Welcome, #{person_name}. You are number"
-    # katz_deli.each_with_index do |item, index|
-    # welcome_message << " #{index} in line."
    end
   # puts welcome_message
 end
