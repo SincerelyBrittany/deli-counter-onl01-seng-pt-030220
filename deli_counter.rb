@@ -15,7 +15,6 @@
 #   puts current_line
 # end
 
-# line(["a","b","c"])
 
 # def take_a_number(line,endofline)
   
