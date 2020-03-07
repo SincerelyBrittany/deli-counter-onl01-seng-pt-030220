@@ -22,6 +22,7 @@ def take_a_number(katz_deli,person_name)
       name = person_name
       index = katz_deli.index(person_name)
       welcome_message = "Welcome, #{name}. You are number #{index} in line."
+      puts welcome_message
     else 
     katz_deli.push(person_name)
     welcome_message = "Welcome, #{person_name}. You are number"
