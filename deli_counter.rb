@@ -24,12 +24,12 @@
 katz_deli = []
 
 def line(katz_deli)
-   katz_deli.each_with_index do |person, index|
-  puts "The line is currently: #{index}.#{person}"
- end
  arr_length = katz_deli.length
+ puts "The line is currently:
  if arr_length > 0 
-   katz_deli
+   katz_deli.each_with_index do |person, index|
+  puts  "#{index}.#{person}"
+ end
   elsif
    puts "The line is currently empty."
  end
