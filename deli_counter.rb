@@ -18,7 +18,7 @@ end
 
 
 def take_a_number(katz_deli,person_name)
-    if person_name != 
+    if person_name included?
     katz_deli.push(person_name)
     welcome_message = "Welcome, #{person_name}. You are number"
     katz_deli.each_with_index do |item, index|
