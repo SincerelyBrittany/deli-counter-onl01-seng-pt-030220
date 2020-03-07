@@ -21,3 +21,26 @@ line(["a","b","c"])
 def take_a_number(line,endofline)
   
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
