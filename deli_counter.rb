@@ -16,11 +16,11 @@ end
 
 puts line(["a","b","c"])
 
-def take_a_number(line,endofline)
+def take_a_number(ka,endofline)
   
 end
 
-
+# Welcome, Grace. You are number 2 in line.
 
 
 
