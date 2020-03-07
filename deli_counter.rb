@@ -28,7 +28,7 @@ def line(katz_deli)
  if arr_length > 0 
    puts "where doing something"
   elsif
-   
+   puts "The line is currently empty."
   
 end
 
