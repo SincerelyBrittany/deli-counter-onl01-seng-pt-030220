@@ -8,7 +8,7 @@ def line(array)
      index +=1
      current_line << "#{index}. #{item} "
    end
-   puts current_line
+   current_line
 else 
     puts "The line is currently empty."
 end
