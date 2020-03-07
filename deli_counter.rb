@@ -16,7 +16,6 @@ def line(katz_deli)
   end
 end
 
-puts line(["a","b","c"])
 
 def take_a_number(katz_deli,person_name)
     welcome_message = "Welcome, #{person_name}. You are number"
