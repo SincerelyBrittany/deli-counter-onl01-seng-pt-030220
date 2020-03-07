@@ -12,7 +12,7 @@ else
   puts "The line is currently empty."
 end
  current_line.join(",")
-puts "The line is currently: #{current_line}"
+puts "The line is currently:"
 current_line
 end
 
