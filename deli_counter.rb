@@ -30,6 +30,7 @@ def line(katz_deli)
  end
  arr_length = katz_deli.length
  if arr_length > 0 
+   ""
    katz_deli
   elsif
    puts "The line is currently empty."
