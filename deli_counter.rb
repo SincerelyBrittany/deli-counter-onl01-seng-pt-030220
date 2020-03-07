@@ -8,7 +8,7 @@ def line(array)
   index +=1
   current_line << "#{index}. #{item}"
   end
-   current_line.join(",")
+  current_line.join(",")
   puts "The line is currently:"
   puts current_line
 else 
