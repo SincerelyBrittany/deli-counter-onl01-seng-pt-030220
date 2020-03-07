@@ -43,6 +43,7 @@ def now_serving(katz_deli)
     katz_deli.shift
     puts katz_deli
     current_serving_message = "Currently serving #{current_person}."
+    puts current_serving_message
   end
 end
 
