@@ -7,12 +7,11 @@ def line(array)
      array.each_with_index do |item, index|
      index +=1
      current_line << "#{index}. #{item} "
+     return current_line
    end
 else 
     puts "The line is currently empty."
 end
-puts current_line
-return current_line
 end
 
 puts line(["a","b","c"])
