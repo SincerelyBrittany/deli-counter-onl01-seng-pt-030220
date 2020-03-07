@@ -40,7 +40,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else 
     current_person = katz_deli[0]
-    puts ""
+    puts "Currently serving #{current_person}."
   
 end
 
