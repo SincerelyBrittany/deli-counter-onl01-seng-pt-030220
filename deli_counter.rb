@@ -2,10 +2,10 @@
 # ruby deli_counter.rb
 
 def line(array)
-  current_line = "The line is currently:"
   if array.length <= 0
     puts "The line is currently empty."
   else 
+    current_line = "The line is currently:"
      array.each_with_index do |item, index|
      index +=1
      current_line << " #{index}. #{item}"
