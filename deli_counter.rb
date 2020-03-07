@@ -18,8 +18,8 @@ end
 
 
 def take_a_number(katz_deli,person_name)
-    if person_name include? person_name
-      
+    if katz_deli include? person_name
+      .index(person_name)
       
       
     katz_deli.push(person_name)
