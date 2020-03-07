@@ -41,7 +41,7 @@ def now_serving(katz_deli)
   else 
     current_person = katz_deli[0]
     puts "Currently serving #{current_person}."
-  
+  end
 end
 
 
