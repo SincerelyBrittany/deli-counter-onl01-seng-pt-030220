@@ -49,7 +49,7 @@ end
 
 
 
-puts now_serving(["a","b","c"])
+puts now_serving(["Logan", "Avi","Spencer"])
 
 
 
