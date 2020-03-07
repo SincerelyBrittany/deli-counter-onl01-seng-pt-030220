@@ -6,7 +6,7 @@ def line(array)
   if array.length > 0
   array.each_with_index do |item, index|
   index +=1
-  new_index = index.join(".")
+  index.join(".")
   current_line << new_index << ". " << item
   end
 else 
