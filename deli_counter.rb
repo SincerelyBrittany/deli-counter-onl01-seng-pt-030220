@@ -9,14 +9,14 @@ def line(array)
   current_line << "#{index}. #{item}"
   end
    current_line.join(",")
-puts "The line is currently:"
-current_line
+  puts "The line is currently:"
+  current_line
 else 
   puts "The line is currently empty."
 end
 end
 
-puts line(["a","b","c"])
+puts line([])
 
 def take_a_number(line,endofline)
   
