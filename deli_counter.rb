@@ -40,7 +40,6 @@ puts line(["a","b","c"])
 
 
 
-ruby
 
 
 
