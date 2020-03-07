@@ -2,8 +2,8 @@
 # ruby deli_counter.rb
 
 def line(array)
-  if array.length > 0
   current_line =[]
+  if array.length > 0
   array.each_with_index do |item, index|
   index +=1
   current_line << index << item
