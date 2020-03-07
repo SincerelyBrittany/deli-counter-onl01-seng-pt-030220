@@ -35,7 +35,7 @@ def take_a_number(katz_deli,person_name)
   # puts welcome_message
 end
 
-
+def now_serving
 
 
 
