@@ -23,18 +23,20 @@
 
 katz_deli = []
 
-def line(katz_deli)
- arr_length = katz_deli.length
- if arr_length > 0 
-   katz_deli.each_with_index do |person, index|
-   puts "#{index}. #{person}"
- end
-  elsif
-   puts "The line is currently empty."
- end
+def line(array)
+  if array.length > 0
+  current_line =[]
+  array.each_with_index do |item, index|
+  index +=1
+  current_line << index << item
+  end
+else 
+  puts "The line is currently empty."
+end
+  puts "The line is currently:"
+  puts current_line
 end
 
-puts line(["a","b","c"])
 
 
 
