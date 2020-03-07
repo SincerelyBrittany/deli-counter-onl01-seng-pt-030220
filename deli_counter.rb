@@ -24,7 +24,10 @@
 katz_deli = []
 
 def line(katz_deli)
- katz_deli.each_with_index
+ katz_deli.each_with_index do |person, index|
+   puts person
+   puts index
+ end
  arr_length = katz_deli.length
  if arr_length > 0 
    katz_deli
