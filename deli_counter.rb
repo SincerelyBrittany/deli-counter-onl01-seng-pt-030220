@@ -32,7 +32,7 @@ def take_a_number(katz_deli,person_name)
    puts welcome_message
 end
 
-puts take_a_number(["a","b","c"], "Grace")
+puts take_a_number(["a","b","c"], "c")
 
 # Welcome, Grace. You are number 2 in line.
 
