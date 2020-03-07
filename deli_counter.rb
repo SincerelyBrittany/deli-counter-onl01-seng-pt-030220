@@ -9,6 +9,7 @@ def line(array)
   current_line << index
   current_line << "."
   current_line << item
+  current_line.join
   end
 else 
   puts "The line is currently empty."
