@@ -2,7 +2,7 @@
 # ruby deli_counter.rb
 
 def line(array)
-  current_line = "The line is currently:"
+  current_line = "The line is currently: "
   if array.length > 0
      array.each_with_index do |item, index|
      index +=1
