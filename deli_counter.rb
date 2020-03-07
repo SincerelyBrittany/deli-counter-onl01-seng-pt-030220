@@ -12,6 +12,7 @@ else
   puts "The line is currently empty."
 end
   puts "The line is currently:"
+  current_line
   puts current_line
 end
 
