@@ -21,6 +21,7 @@ def take_a_number(katz_deli,person_name)
     if katz_deli.include? person_name 
       name = person_name
       index = katz_deli.index(person_name)
+      index +=1
       welcome_message = "Welcome, #{name}. You are number #{index} in line."
       puts welcome_message
     else 
