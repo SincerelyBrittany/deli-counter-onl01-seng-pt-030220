@@ -18,6 +18,7 @@ end
 
 
 def take_a_number(katz_deli,person_name)
+    
     welcome_message = "Welcome, #{person_name}. You are number"
     katz_deli.each_with_index do |item, index|
     index +=1
